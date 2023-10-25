@@ -1,4 +1,4 @@
-# 	NET SALES PERCENTAGE BY CUSTOMER GLOBAL SHARE
+# 	NET SALES PERCENTAGE BY CUSTOMER-- GLOBAL SHARE
 
 with cte1 as (
 SELECT c.customer,round(sum(net_sales)/1000000,2) as net_sales_mln
